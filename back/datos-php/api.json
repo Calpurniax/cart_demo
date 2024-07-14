@@ -1,0 +1,225 @@
+{
+  "Result": "OK",
+  "Records": [
+    {
+      "idServicio": "40",
+      "nombre": "Servicio de aceite",
+      "status": "1",
+      "orden": "1",
+      "ispreciodesde": "0",
+      "tipo": "1",
+      "id_ws": "CBS_OIL_SERVICE",
+      "descripcion": "El servicio de aceite es realizado por especialistas de BMW Service utilizando recambios Originales BMW y Aceite Genuino BMW que cumple la máxima cualificación de los aceites sintéticos modernos. Todo esto te asegura un óptimo rendimiento del motor de tu BMW.",
+      "detalle": "Operaciones y recambios originales incluidos:- Comprobaci&oacute;n del funcionamiento del freno de mano.<br />-&nbsp;Comprobaci&oacute;n de mensajes en el cuadro de control.<br />- Comprobaci&oacute;n de testigos luminosos y de aviso.<br />- Sustituci&oacute;n del aceite de motor.<br />- Sustituci&oacute;n del filtro de aceite.<br />- Eliminaci&oacute;n respetuosa con el medio ambiente del aceite usado y el filtro desechado.<br />- Restablecimiento del indicador de servicio de mantenimiento.",
+      "disclaimer": "Aceite Genuino BMW, recambios Originales BMW, mano de obra e impuestos incluidos. Consulta&nbsp;a tu concesionario quien estar&aacute; encantado de ofrecerte un presupuesto personalizado.\n",
+      "valor": "149.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "38",
+      "nombre": "Pastillas de freno delantero",
+      "status": "1",
+      "orden": "3",
+      "ispreciodesde": "0",
+      "tipo": "1",
+      "id_ws": "CBS_FRONT_BRAKE_PADS",
+      "descripcion": "El servicio de sustitución de pastillas de freno delanteras es realizada por especialistas de BMW Service utilizando siempre pastillas de freno Originales BMW de larga duración. Garantizando así el máximo confort de marcha y un magnífico comportamiento de los frenos, incluso en condiciones adversas.",
+      "detalle": "En combinaci&oacute;n con los discos de freno Originales BMW, las pastillas de freno garantizan el &oacute;ptimo funcionamiento de los sistemas de control m&aacute;s importantes, como el Sistema Antibloqueo de los Frenos (ABS) y el Control Din&aacute;mico de Estabilidad (DSC), lo que garantiza la m&aacute;xima seguridad y rendimiento.Operaciones y recambios originales incluidos:- Comprobaci&oacute;n de mensajes en el cuadro de control.<br />- Comprobaci&oacute;n de testigos luminosos y de aviso.<br />- Comprobaci&oacute;n del funcionamiento del freno de mano.<br /><span style=line-height:1.6em>- Sustituci&oacute;n de las pastillas de freno y sensor de desgaste.</span><br /><span style=line-height:1.6em>- Comprobaci&oacute;n de la superficie y espesor de los discos de frenos.</span><br /><span style=line-height:1.6em>- Restablecimiento del indicador de mantenimiento.</span>",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta&nbsp;a tu concesionario quien estar&aacute; encantado de ofrecerte un presupuesto personalizado.\n",
+      "valor": "175.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "39",
+      "nombre": "Pastillas de freno trasero",
+      "status": "1",
+      "orden": "4",
+      "ispreciodesde": "0",
+      "tipo": "1",
+      "id_ws": "CBS_REAR_BRAKE_PADS",
+      "descripcion": "El servicio de sustitución de pastillas de freno traseras es realizada por especialistas de BMW Service utilizando siempre pastillas de freno Originales BMW de larga duración. Garantizando así el máximo confort de marcha y un magnífico comportamiento de los frenos, incluso en condiciones adversas.",
+      "detalle": "En combinaci&oacute;n con los discos de freno Originales BMW, las pastillas de freno garantizan el &oacute;ptimo funcionamiento de los sistemas de control m&aacute;s importantes, como el Sistema Antibloqueo de los Frenos (ABS) y el Control Din&aacute;mico de Estabilidad (DSC), lo que garantiza la m&aacute;xima seguridad y rendimiento.Operaciones y recambios originales incluidos:- Comprobaci&oacute;n de mensajes en el cuadro de control.<br />- Comprobaci&oacute;n de testigos luminosos y de aviso.<br />- Sustituci&oacute;n de las pastillas de freno y sensor de desgaste.<br />- Comprobaci&oacute;n de la superficie y espesor de los discos de frenos.<br />- Comprobaci&oacute;n del funcionamiento del freno de mano.<br />- Restablecimiento el indicador de mantenimiento.",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta&nbsp;a tu concesionario quien estar&aacute; encantado de ofrecerte&nbsp;un presupuesto personalizado.\n",
+      "valor": "166.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "53",
+      "nombre": "Servicio Filtro de combustible",
+      "status": "1",
+      "orden": "5",
+      "ispreciodesde": "0",
+      "tipo": "5",
+      "id_ws": "CBS_FUEL_FILTER",
+      "descripcion": "Cada segundo o tercer cambio de aceite tu BMW puede necesitar la sustitución del filtro de combustible para seguir proporcionándote un máximo rendimiento. Para este mantenimiento los especialistas de BMW Service utilizan recambios Originales BMW los cuales se adaptan perfectamente a tu vehículo.",
+      "detalle": "El filtro de aire Original BMW te asegura que el polvo y suciedad en el aire de admisi&oacute;n no llegue al motor, proporcion&aacute;ndole siempre la cantidad apropiada de aire limpio. Las principales ventajas de los filtros de aire Originales BMW son:- Dise&ntilde;ados para las variantes espec&iacute;ficas de cada motor<br />- Capacidad de retenci&oacute;n &oacute;ptima<br />- Papel de filtro impregnado con resinas especiales para una mayor resistencia<br />- &Oacute;ptimos niveles de separaci&oacute;n de polvo de hasta 99%<br />- Suministro &oacute;ptimo de aire para un menor consumo de combustibleEl filtro de combustible Original BMW remueve todas las part&iacute;culas de suciedad que se encuentran en el combustible. En el caso de los motores a diesel, el agua contenida en el gas&oacute;leo tambi&eacute;n es filtrada. Otras caracter&iacute;sticas de los filtros de combustible Originales BMW de las cuales te podr&aacute;s beneficiar son:- Materiales de filtrado de alta calidad<br />- Protecci&oacute;n m&aacute;xima frente a la corrosi&oacute;n<br />- Dise&ntilde;ados para las altas presiones de los motores BMW<br />- Contenci&oacute;n segura en caso de accidenteOperaciones y recambios originales incluidos:<span style=line-height:1.6em>- Sustituci&oacute;n del filtro de aire</span><br /><span style=line-height:1.6em>- Sustituci&oacute;n del filtro de combustible</span>",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta a tu concesionario quien estar&aacute; encantado de ofrecerte un presupuesto personalizado.\n",
+      "valor": "75.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "54",
+      "nombre": "Servicio filtro de aire",
+      "status": "1",
+      "orden": "6",
+      "ispreciodesde": "0",
+      "tipo": "5",
+      "id_ws": "CBS_AIR_FILTER",
+      "descripcion": "Cada segundo o tercer cambio de aceite tu BMW puede necesitar la sustitución del filtro de aire para seguir proporcionándote un máximo rendimiento. Para este mantenimiento los especialistas de BMW Service utilizan recambios Originales BMW los cuales se adaptan perfectamente a tu vehículo.",
+      "detalle": "El filtro de aire Original BMW te asegura que el polvo y suciedad en el aire de admisión no llegue al motor, proporcionándole siempre la cantidad apropiada de aire limpio. Las principales ventajas de los filtros de aire Originales BMW son: \n \n- Están diseñados para las variantes específicas de cada motor \n- Capacidad de retención óptima<br /> \n- Papel de filtro impregnado con resinas especiales para una mayor resistencia<br /> \n- Óptimos niveles de separación de polvo de hasta 99%<br /> \n- Suministro óptimo de aire para un menor consumo de combustible \nLas bujías Originales BMW están fabricadas con materiales de alta calidad, resistentes a altas temperaturas, lo que garantiza una fiabilidad del 100% durante arranques en frio y aceleración. Otras características de las bujías Originales BMW de las cuales te podrás beneficiar son: \n- Alta protección a la corrosión<br /> \n- Larga vida útil y gran fiabilidad<br /> \n- Perfecta alineación del material para prevenir fugas y fallos de encendido<br /> \n- Diseñadas y probadas para tu BMW<br /> \n- 2 años de garantía \nOperaciones y recambios originales incluidos: \n-\tSustitución del filtro de aire<br /> \n-\tSustitución de las bujías de encendido",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta a tu concesionario quien estará encantado de ofrecerte un presupuesto personalizado.",
+      "valor": "70.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "73",
+      "nombre": "Servicio microfiltro mejorado",
+      "status": "1",
+      "orden": "6",
+      "ispreciodesde": "0",
+      "tipo": "5",
+      "id_ws": "CBS_MICROFILTER",
+      "descripcion": "Con cada cambio de aceite se debe sustituir el microfiltro del sistema de climatización, permitiendo respirar mejor, especialmente a las personas alérgicas. Para este mantenimiento los especialistas de BMW Service utilizan recambios Originales BMW los cuales se adaptan perfectamente a tu vehículo",
+      "detalle": "El filtro de aire Original BMW te asegura que el polvo y suciedad en el aire de admisión no llegue al motor, proporcionándole siempre la cantidad apropiada de aire limpio. Las principales ventajas de los filtros de aire Originales BMW son: \n \n- Están diseñados para las variantes específicas de cada motor \n- Capacidad de retención óptima<br /> \n- Papel de filtro impregnado con resinas especiales para una mayor resistencia<br /> \n- Óptimos niveles de separación de polvo de hasta 99%<br /> \n- Suministro óptimo de aire para un menor consumo de combustible \nLas bujías Originales BMW están fabricadas con materiales de alta calidad, resistentes a altas temperaturas, lo que garantiza una fiabilidad del 100% durante arranques en frio y aceleración. Otras características de las bujías Originales BMW de las cuales te podrás beneficiar son: \n- Alta protección a la corrosión<br /> \n- Larga vida útil y gran fiabilidad<br /> \n- Perfecta alineación del material para prevenir fugas y fallos de encendido<br /> \n- Diseñadas y probadas para tu BMW<br /> \n- 2 años de garantía \nOperaciones y recambios originales incluidos: \n-\tSustitución del filtro de aire<br /> \n-\tSustitución de las bujías de encendido",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta a tu concesionario quien estará encantado de ofrecerte un presupuesto personalizado.",
+      "valor": "75.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "47",
+      "nombre": "Discos de freno delanteros",
+      "status": "1",
+      "orden": "7",
+      "ispreciodesde": "0",
+      "tipo": "3",
+      "id_ws": "BRAKE_DISCS_FRONT_ASSOCIATED",
+      "descripcion": "Los discos de freno Originales BMW están desarrollados mediante procesos y materiales especiales que mejoran la conducción de tu BMW a su vez que mejoran el consumo de combustible. Están diseñados específicamente para adaptarse a todos los componentes del vehículo, como el chasis, el motor o el sistema ABS. El resultado es un frenado excepcional en todo tipo de situaciones.                                                                                                                                                                          En cada cambio de discos de freno es necesario sustituir las pastillas de freno delanteras.",
+      "detalle": "Otras caracter&iacute;sticas de los discos de freno Originales BMW de las cuales te podr&aacute;s beneficiar son:- Resistencia a altas temperaturas extremas y presi&oacute;n<br />- Material y acabado de precisi&oacute;n<br />- Larga vida &uacute;til y gran fiabilidad<br />- Dise&ntilde;ados y probados para tu BMW<br />- 2 a&ntilde;os de garant&iacute;aOperaciones y recambios originales incluidos:- Sustituci&oacute;n de los discos de freno delanteros",
+      "disclaimer": "Consulta el precio para tu modelo en tu Taller Autorizado.<br><br>Precio válido únicamente al realizar simultáneamente la operación de sustitución de pastillas de freno delanteras.",
+      "valor": "212.00"
+    },
+    {
+      "idServicio": "48",
+      "nombre": "Discos de freno traseros",
+      "status": "1",
+      "orden": "8",
+      "ispreciodesde": "0",
+      "tipo": "3",
+      "id_ws": "BRAKE_DISCS_REAR_INSTALL_ASSOCIATED",
+      "descripcion": "Los discos de freno Originales BMW están desarrollados mediante procesos y materiales especiales que mejoran la conducción de tu BMW a su vez que mejoran el consumo de combustible. Están diseñados específicamente para adaptarse a todos los componentes del vehículo, como el chasis, el motor o el sistema ABS. El resultado es un frenado excepcional en todo tipo de situaciones.                                                                                                                                                                           En cada cambio de discos de freno es necesario sustituir las pastillas de freno traseras.",
+      "detalle": "&nbsp;Otras caracter&iacute;sticas de los discos de freno Originales BMW de las cuales te podr&aacute;s beneficiar son:- Resistencia a altas temperaturas extremas y presi&oacute;n&nbsp;<br />- Material y acabado de precisi&oacute;n<br />- Larga vida &uacute;til y gran fiabilidad<br />- Dise&ntilde;ados y probados para tu BMW<br />- 2 a&ntilde;os de garant&iacute;aOperaciones y recambios originales incluidos:- Sustituci&oacute;n de los discos de freno traseros",
+      "disclaimer": "Consulta el precio para tu modelo en tu Taller Autorizado.<br><br>Precio válido únicamente al realizar simultáneamente la operación de sustitución de pastillas de freno traseras.",
+      "valor": "155.00"
+    },
+    {
+      "idServicio": "44",
+      "nombre": "Escobillas",
+      "status": "1",
+      "orden": "12",
+      "ispreciodesde": "0",
+      "tipo": "2",
+      "id_ws": "WIPERBLADES_FRONT",
+      "descripcion": "Mantén la máxima visibilidad con las escobillas limpiaparabrisas Originales BMW. Ya sea con nieve, agua o suciedad, siempre te ofrecen una limpieza óptima y funcionan de forma impresionante en cualquier clima, incluso después de 300 horas de uso.",
+      "detalle": "<span style=line-height:1.6em>Las ventajas en un vistazo:</span>&bull; Limpieza de gran eficacia debido a las innovadoras escobillas sint&eacute;ticas.<br />&bull; Excelentes resultados incluso despu&eacute;s de 300 horas de uso.<br />&bull; 22 decibelios menos que las escobillas de goma convencionales.<br />&bull; Forma extraordinaria y mayor presi&oacute;n en la superficie gracias a un spoiler incorporado.Operaciones y recambios originales incluidos:- Sustituci&oacute;n del juego de escobillas del limpiaparabrisas.",
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta&nbsp;a tu concesionario quien estar&aacute; encantado de ofrecerte un presupuesto personalizado.\n",
+      "valor": "55.00"
+    },
+    {
+      "idServicio": "71",
+      "nombre": "Servicio chequeo del vehículo",
+      "flximagen": null,
+      "nflximagen": null,
+      "status": "1",
+      "orden": "19",
+      "ispreciodesde": "0",
+      "tipo": "5",
+      "id_ws": "CBS_VEHICLE_CHECK",
+      "descripcion": "",
+      "detalle": null,
+      "disclaimer": null,
+      "valor": "29.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    },
+    {
+      "idServicio": "58",
+      "nombre": "Amortiguadores delanteros",
+      "status": "1",
+      "orden": "22",
+      "ispreciodesde": "0",
+      "tipo": "6",
+      "id_ws": "SPRING_STRUTS_FRONT",
+      "descripcion": "Los amortiguadores son uno de los componentes más importantes del vehículo ya que son esenciales en la seguridad activa de este.Los amortiguadores originales BMW ayudan a absorber las vibraciones mejorando la adherencia a la vía, aumentando la estabilidad y reduciendo la distancia de frenado.Los amortiguadores originales BMW hacen que la conducción sea más confortable.",
+      "detalle": null,
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta a tu concesionario quien estará encantado de ofrecerte un presupuesto personalizad",
+      "valor": "496.00"
+    },
+    {
+      "idServicio": "59",
+      "nombre": "Amortiguadores traseros",
+      "status": "1",
+      "orden": "23",
+      "ispreciodesde": "0",
+      "tipo": "6",
+      "id_ws": "REAR_SHOCK_ABSORBERS",
+      "descripcion": "Los amortiguadores son uno de los componentes más importantes del vehículo ya que son esenciales en la seguridad activa de este.Los amortiguadores originales BMW ayudan a absorber las vibraciones mejorando la adherencia a la vía, aumentando la estabilidad y reduciendo la distancia de frenado.Los amortiguadores originales BMW hacen que la conducción sea más confortable.",
+      "detalle": null,
+      "disclaimer": "Recambios Originales BMW, mano de obra e impuestos incluidos. Consulta a tu concesionario quien estará encantado de ofrecerte un presupuesto personalizad",
+      "valor": "339.00"
+    },
+    {
+      "idServicio": "65",
+      "nombre": "Servicio líquido de frenos",
+      "status": "1",
+      "orden": "99",
+      "ispreciodesde": "0",
+      "tipo": "6",
+      "id_ws": "CBS_BRAKE_FLUID",
+      "descripcion": "Un buen funcionamiento de los frenos del vehículo requiere del cambio periódico del líquido de frenos. Desde BMW Service recomendamos realizar el primer cambio a los 3 años, y posteriormente cada 2 años o cuando lo indique el testigo del vehículo.",
+      "detalle": "Operaciones y recambios originales incluidos:-&nbsp;Comprobaci&oacute;n de mensajes en el cuadro de control.<br />- Comprobaci&oacute;n del funcionamiento del freno de mano.<br />-&nbsp;Sustituci&oacute;n del aceite de motor.<br />- Sustituci&oacute;n del filtro de aceite.<br />- Eliminaci&oacute;n respetuosa con el medio ambiente del aceite usado y el filtro desechado.<br />- Sustituci&oacute;n del microfiltro del sistema de climatizaci&oacute;n.<br />- Restablecimiento del indicador de servicio de mantenimiento.",
+      "disclaimer": "Aceite Genuino BMW, recambios Originales BMW, mano de obra e impuestos incluidos. Consulta&nbsp;a tu concesionario quien estar&aacute; encantado de ofrecerte un presupuesto personalizado.\r\n",
+      "valor": "40.00",
+      "aditional": {
+        "id": "STANDARD_SCOPE",
+        "price": "10.00",
+        "name": "Control sistema de avisos",
+        "description": "Control sistema de avisos"
+      }
+    }
+  ],
+  "TotalRecordCount": 13
+}

@@ -1,0 +1,28 @@
+//padding and margins
+$padding-mobile: 1em;
+$margin-mobile:0.5em;
+$padding-tablet: 1.5em;
+$margin-tablet:1em;
+$padding-desktop:2em;
+$margin-desktop:1.5em;
+
+//sizes
+$icon_size:2em;
+$small_icon_size:1em;
+
+//colors
+$alert_color: #FF7700;
+$accent_color: #166DF0;
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  

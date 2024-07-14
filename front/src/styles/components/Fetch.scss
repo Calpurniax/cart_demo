@@ -1,0 +1,12 @@
+@import "../core/responsive.scss";
+
+.formServices{
+    height: 50vh;
+    overflow-y: scroll;
+    padding-bottom: 20vh;
+    @include tablet{
+        padding-bottom: 10vh;
+        height: 40vh;
+    }
+    
+}

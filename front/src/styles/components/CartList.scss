@@ -1,0 +1,15 @@
+@import "../core/variables.scss";
+@import "../core/responsive.scss";
+
+.cartList{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: $margin-mobile;
+    @include tablet{
+        margin-bottom: $margin-tablet;
+    }
+    &__price{        
+        justify-self:end;
+    }
+}

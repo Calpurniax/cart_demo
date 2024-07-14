@@ -1,0 +1,35 @@
+@import "../core/responsive.scss";
+@import "../core/variables.scss";
+
+.serviceComponent{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: $padding-mobile;    
+    border: 0.5px solid lightgray;
+    margin: $margin-mobile 0  $margin-mobile 0;    
+    @include desktop{
+        margin: $margin-tablet 0  $margin-tablet 0;
+    }
+    &__subContainer{
+        display: flex;
+        align-items: center;
+        &--icon{
+        height: $small_icon_size;
+        }
+    }   
+    &__checkbox:checked{        
+        accent-color:white;
+    }
+}
+.nameSubcontainer{
+    max-width: 40%;
+}
+.priceSubcontainer{
+    gap:0.5em;
+}
+.selected{
+    transition: background-color 0.5s ease;
+    background-color: $accent_color;
+    color:white;
+}
