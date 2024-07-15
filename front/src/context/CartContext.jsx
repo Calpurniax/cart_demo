@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
   }
 
   const handleSelectedServices = (target, services) => { 
-    checkAditionalCost() 
+    
     if (target.checked) {
       const serviceFound = services.find((each) => each.idServicio === target.id);
       setSelectedServices([...selectedServices, serviceFound]);      
@@ -45,9 +45,11 @@ export const CartProvider = ({ children }) => {
       const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), aditionalCost);    
       setTotalCost(total);        
     }
+    else setTotalCost(0)
   };
   useEffect(() => {
-    addTotalCost();    
+    checkAditionalCost()
+    addTotalCost();         
   }, [selectedServices]);
 
   return (
