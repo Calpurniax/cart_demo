@@ -11,7 +11,7 @@ El back estará escuchando en http://localhost:52000/
 He utilizado Vite para crear una app de React.
 
 Para instalar las dependencias, desde la carpeta de front, escribe:
-```npm run dev```
+```npm install```
 Para arrancar el proyecto:
 ```npm run dev```
 He modificado el diseño original porque el color naranja con texto blanco no tiene un contraste suficiente para ser leído por todas las personas, he decidido dejar el texto en negro que contrasta más y para que tuviera coherencia he cambiado el icono de color también. Y me parece que el botón de continuar debería estar siempre a la vista, y que el usuario deba sólo hacer scroll para encontrar los servicios y no para continuar.
