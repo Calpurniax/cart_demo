@@ -13,7 +13,7 @@ import './App.scss';
 function App() {
   const [cartClose, setCartClose] = useState(true);
 
-  const { totalCost, renderSelectedServices, aditionalCost } =
+  const { totalCost, renderSelectedServices, aditionalCost, renderAditionalCost} =
     useCartContext();
 
   const handleCartClose = () => {
@@ -98,7 +98,7 @@ function App() {
         <h2 className='cartContainer__h2'>Servicios seleccionados:</h2>    
         {renderSelectedServices()}
         <p className='cartContainer__totalPrice'>Total: {totalCost} €</p>
-        {aditionalCost>0 && <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>}
+        {renderAditionalCost && <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>}
       </aside>
     </>
   );

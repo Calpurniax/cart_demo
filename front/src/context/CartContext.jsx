@@ -15,13 +15,25 @@ export const CartProvider = ({ children }) => {
   const [selectedServices, setSelectedServices] = useState([]);
   const [totalCost, setTotalCost] = useState(0);
   const [aditionalCost, setAditionalCost] = useState (0);
- 
-  function checkAditionalCost(){ 
-       
-    const checking = selectedServices.find(each=> each.aditional)
-    if(checking) setAditionalCost(parseInt(checking.aditional.price)) 
-    else setAditionalCost(0) 
+  const [renderAditionalCost, setRenderAditionalCost] = useState (false);
+
+  function calculateAditional (results){    
+    const aditionalResult = results.find(each=> each.aditional)
+    setAditionalCost(parseInt(aditionalResult.aditional.price))
   }
+ 
+  function checkAditionalCost(){        
+    const checking = selectedServices.find(each=> each.aditional)
+    if (checking){
+      setRenderAditionalCost(true)
+      return true
+    } 
+    else{
+      setRenderAditionalCost(false)
+      return false
+      } 
+    }   
+  
 
   const handleSelectedServices = (target, services) => { 
     
@@ -43,13 +55,20 @@ export const CartProvider = ({ children }) => {
 
   const addTotalCost = () => {
     if (selectedServices.length > 0) { 
-      const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), aditionalCost);    
-      setTotalCost(total);        
+      const addAditional = checkAditionalCost();
+      if (addAditional){
+        const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), aditionalCost);    
+        setTotalCost(total);        
+      }
+      else {
+        const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), 0);    
+        setTotalCost(total);
+      }
     }
     else setTotalCost(0)
   };
-  useEffect(() => {
-    checkAditionalCost()
+
+  useEffect(() => {   
     addTotalCost();         
   }, [selectedServices]);
 
@@ -60,7 +79,8 @@ export const CartProvider = ({ children }) => {
         selectedServices,
         totalCost,
         renderSelectedServices,
-        aditionalCost
+        aditionalCost, calculateAditional,
+        renderAditionalCost
       }}
     >
       {children}
