@@ -17,6 +17,6 @@ Para arrancar el proyecto:
 He modificado el diseño original porque el color naranja con texto blanco no tiene un contraste suficiente para ser leído por todas las personas, he decidido dejar el texto en negro que contrasta más y para que tuviera coherencia he cambiado el icono de color también. Y me parece que el botón de continuar debería estar siempre a la vista, y que el usuario deba sólo hacer scroll para encontrar los servicios y no para continuar.
 
 En cuanto a cosas que me gustaría mejorar, por ejemplo el separar más el código, de tal forma que no haya tanto HTML en app.jsx si no sólamente los componentes. Al hacerlo con el aside del carrito de versión móvil dejaba de verse así que decidí dejarlo como estaba y centrarme en acabar otras funcionalidades.
-He tenido problemas que no me ha dado tiempo a solucionar con el importe de los gastos añadidos, ya que React actualiza los datos en la segunda acción del usuario y no en la primera, es decir que si primero selecciono un producto con gasto añadido no añade el gasto pero al seleccionar otro producto (sea con gasto añadido o no) sí lo hace.
+
 
 
