@@ -16,7 +16,8 @@ export const CartProvider = ({ children }) => {
   const [totalCost, setTotalCost] = useState(0);
   const [aditionalCost, setAditionalCost] = useState (0);
  
-  function checkAditionalCost(){    
+  function checkAditionalCost(){ 
+       
     const checking = selectedServices.find(each=> each.aditional)
     if(checking) setAditionalCost(parseInt(checking.aditional.price)) 
     else setAditionalCost(0) 
