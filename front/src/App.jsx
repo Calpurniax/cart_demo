@@ -20,7 +20,6 @@ function App() {
     setCartClose(!cartClose);
   };
 
-
   return (
     <>
       <main className='main'>
@@ -80,7 +79,7 @@ function App() {
           <h2 className='cartContainer__h2'>Servicios seleccionados: </h2>
           {renderSelectedServices()}
           <p className='cartContainer__totalPrice'>Total: {totalCost} €</p> 
-          {aditionalCost>0 && <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>}         
+          {renderAditionalCost ? <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>: null}         
         </section>
         <div className='continue'>
           <button className='continue__button'>Continuar</button>
@@ -98,10 +97,10 @@ function App() {
         <h2 className='cartContainer__h2'>Servicios seleccionados:</h2>    
         {renderSelectedServices()}
         <p className='cartContainer__totalPrice'>Total: {totalCost} €</p>
-        {renderAditionalCost && <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>}
+        {renderAditionalCost ? <p className='cartContainer__aditionalCost'>Gastos adicionales: {aditionalCost} €</p>:null}
       </aside>
     </>
   );
-}
+  }
 
 export default App;

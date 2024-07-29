@@ -24,6 +24,7 @@ export const CartProvider = ({ children }) => {
  
   function checkAditionalCost(){        
     const checking = selectedServices.find(each=> each.aditional)
+    
     if (checking){
       setRenderAditionalCost(true)
       return true
@@ -53,15 +54,19 @@ export const CartProvider = ({ children }) => {
     else return <p>No hay nada seleccionado aún</p>
   }
 
+  function calculateCost(condition){
+    return selectedServices.reduce((acc, current) => acc + parseInt(current.valor), condition); 
+  }
+
   const addTotalCost = () => {
     if (selectedServices.length > 0) { 
       const addAditional = checkAditionalCost();
       if (addAditional){
-        const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), aditionalCost);    
+        const total =  calculateCost(aditionalCost)
         setTotalCost(total);        
       }
       else {
-        const total = selectedServices.reduce((acc, current) => acc + parseInt(current.valor), 0);    
+        const total = calculateCost(0)
         setTotalCost(total);
       }
     }
